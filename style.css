@@ -1,0 +1,89 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: rgb(49, 4, 87);
+}
+
+
+.titulo{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-top: -65px;
+    color: white;
+}
+   
+.logo{
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+.topo{
+    height: 110px;
+    background-color: #936ae3;
+}
+
+.foto{
+    width: 300px;
+    height: 300px;
+    
+    border-radius: 20px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.opcoes{
+    margin: 40px;
+    transition: ease-in-out 0.5s;
+    background-color: #14bdac;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.opcoes:hover{
+    transform: scale(1.2);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);;
+}
+
+.p1{
+    color: white;
+}
+
+.frase{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#rodape {
+    background-color: #6642ac;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
